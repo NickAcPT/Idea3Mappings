@@ -1,0 +1,3 @@
+CLASS com/intellij/openapi/application/a/a com/intellij/openapi/application/a/ApplicationInfoData
+	FIELD b componentName Ljava/lang/String;
+	METHOD d getVersionString ()Ljava/lang/String;

@@ -1,33 +1,11 @@
 CLASS com/intellij/openapi/ui/DialogWrapper
 	METHOD createCenterPanel ()Ljavax/swing/JComponent;
-	METHOD createContentPane ()Ljavax/swing/JComponent;
-	METHOD createContentPaneBorder ()Ljavax/swing/border/Border;
-	METHOD createSouthPanel ()Ljavax/swing/JComponent;
+	METHOD createNorthPanel ()Ljavax/swing/JComponent;
 	METHOD doCancelAction ()V
-	METHOD doHelpAction ()V
 	METHOD doOKAction ()V
-	METHOD getExitCode ()I
-	METHOD getLocation ()Ljava/awt/Point;
 	METHOD getPreferredFocusedComponent ()Ljavax/swing/JComponent;
-	METHOD getRootPane ()Ljavax/swing/JRootPane;
 	METHOD init ()V
 	METHOD isOK ()Z
-	METHOD isResizable ()V
-	METHOD pack ()V
-	METHOD setButtonsAlignment (I)V
-	METHOD setButtonsMargin (Ljava/awt/Insets;)V
-	METHOD setCancelButtonIcon (Ljavax/swing/Icon;)V
-	METHOD setCancelButtonText (Ljava/lang/String;)V
-	METHOD setCrossClosesWindow (Z)V
-	METHOD setLocation (II)V
-	METHOD setLocation (Ljava/awt/Point;)V
-	METHOD setModal (Z)V
 	METHOD setOKActionEnabled (Z)V
-	METHOD setOKButtonIcon (Ljavax/swing/Icon;)V
-	METHOD setOKButtonText (Ljava/lang/String;)V
-	METHOD setResizable (Z)V
-	METHOD setSize (II)V
 	METHOD setTitle (Ljava/lang/String;)V
 	METHOD show ()V
-	CLASS MyDialog
-		METHOD show ()V

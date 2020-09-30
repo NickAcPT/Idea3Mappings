@@ -1,0 +1,3 @@
+CLASS com/intellij/ide/f/r com/intellij/ide/licensing/LicenseTermsAcceptDialog
+	FIELD t acceptedTermsCheckBox Ljavax/swing/JCheckBox;
+	METHOD a hasAcceptedTerms ()Z

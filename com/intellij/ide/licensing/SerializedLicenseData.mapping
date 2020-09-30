@@ -1,4 +1,8 @@
 CLASS com/intellij/ide/f/p com/intellij/ide/licensing/SerializedLicenseData
+	FIELD a licenseKey Ljava/lang/String;
+	FIELD b userName Ljava/lang/String;
 	FIELD c expirationDate J
 	METHOD <init> (Ljava/lang/String;Ljava/lang/String;J)V
+		ARG 1 licenseKey
+		ARG 2 username
 		ARG 3 lastModifiedDate

@@ -1,8 +1,10 @@
 CLASS com/intellij/openapi/components/a/a com/intellij/components/ComponentManager
 	FIELD a LOGGER Lcom/intellij/openapi/diagnostic/Logger;
+	FIELD f isCreated Z
 	FIELD i components Ljava/util/Map;
 	METHOD a (Lcom/intellij/openapi/components/BaseComponent;Ljava/lang/Class;)V
 		ARG 1 component
 	METHOD a setupComponent (Ljava/lang/Class;)V
 	METHOD a registerComponent (Ljava/lang/Class;Ljava/lang/Class;Ljava/util/Map;)V
+	METHOD b isCreated ()Z
 	METHOD e getAllComponents ()[Lcom/intellij/openapi/components/BaseComponent;

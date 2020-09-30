@@ -1,3 +1,7 @@
 CLASS com/intellij/ide/f/s com/intellij/ide/dialogs/LicenseDialog
 	FIELD t centerPanel Lcom/intellij/ide/f/u;
 	FIELD v cancelAction Ljava/lang/Runnable;
+	METHOD a getLicenseKeyText ()Ljava/lang/String;
+	METHOD b getUsernameText ()Ljava/lang/String;
+	METHOD b setLicenseKeyText (Ljava/lang/String;)V
+	METHOD c setUserNameText (Ljava/lang/String;)V

@@ -1,10 +1,22 @@
 CLASS com/intellij/openapi/diagnostic/Logger com/intellij/openapi/diagnostic/Logger
+	FIELD c category Lorg/apache/log4j/Category;
+	FIELD errorsOccured Z
+	FIELD ourLastActionId Ljava/lang/String;
+	METHOD a logApplicationData ()V
 	METHOD assertTrue (Z)Z
+		ARG 1 result
 	METHOD assertTrue (ZLjava/lang/String;)Z
+		ARG 1 result
+		ARG 2 errorMessage
 	METHOD debug (Ljava/lang/String;)V
 	METHOD debug (Ljava/lang/Throwable;)V
 	METHOD error (Ljava/lang/String;)V
+	METHOD error (Ljava/lang/String;Ljava/lang/Throwable;)V
+		ARG 1 message
+		ARG 2 e
 	METHOD error (Ljava/lang/Throwable;)V
+	METHOD errorDetails (Ljava/lang/String;)V
+	METHOD getCategory ()Lorg/apache/log4j/Category;
 	METHOD getInstance (Ljava/lang/String;)Lcom/intellij/openapi/diagnostic/Logger;
 	METHOD info (Ljava/lang/String;)V
 	METHOD info (Ljava/lang/String;Ljava/lang/Throwable;)V

@@ -1,0 +1,6 @@
+CLASS com/intellij/openapi/application/b/a com/intellij/openapi/application/b/ApplicationInfo
+	FIELD c versionName Ljava/lang/String;
+	FIELD d majorVersion Ljava/lang/String;
+	FIELD e minorVersion Ljava/lang/String;
+	FIELD f buildNumber Ljava/lang/String;
+	FIELD i buildDate Ljava/util/Calendar;

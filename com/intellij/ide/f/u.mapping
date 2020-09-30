@@ -1,2 +1,0 @@
-CLASS com/intellij/ide/f/u
-	METHOD e getPreferredFocusedComponent ()Ljavax/swing/JComponent;

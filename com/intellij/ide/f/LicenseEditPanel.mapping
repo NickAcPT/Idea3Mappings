@@ -1,0 +1,8 @@
+CLASS com/intellij/ide/f/u com/intellij/ide/f/LicenseEditPanel
+	FIELD e licenseKeyField Ljavax/swing/JTextField;
+	FIELD f usernameField Ljavax/swing/JTextField;
+	METHOD a setLicenseKeyText (Ljava/lang/String;)V
+	METHOD b setUserNameText (Ljava/lang/String;)V
+	METHOD e getPreferredFocusedComponent ()Ljavax/swing/JComponent;
+	METHOD f getLicenseKeyText ()Ljava/lang/String;
+	METHOD g getUsernameText ()Ljava/lang/String;
