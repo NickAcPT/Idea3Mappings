@@ -1,37 +1,5 @@
 CLASS com/intellij/openapi/ui/Messages com/intellij/openapi/ui/Messages
-	METHOD getErrorIcon ()Ljavax/swing/Icon;
 	METHOD getInformationIcon ()Ljavax/swing/Icon;
-	METHOD getQuestionIcon ()Ljavax/swing/Icon;
-	METHOD getWarningIcon ()Ljavax/swing/Icon;
-	METHOD showChooseDialog (Lcom/intellij/openapi/project/Project;Ljava/lang/String;Ljava/lang/String;Ljavax/swing/Icon;[Ljava/lang/String;Ljava/lang/String;)I
-	METHOD showChooseDialog (Ljava/awt/Component;Ljava/lang/String;Ljava/lang/String;Ljavax/swing/Icon;[Ljava/lang/String;Ljava/lang/String;)I
-	METHOD showChooseDialog (Ljava/lang/String;Ljava/lang/String;Ljavax/swing/Icon;[Ljava/lang/String;Ljava/lang/String;)I
-	METHOD showDialog (Lcom/intellij/openapi/project/Project;Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;ILjavax/swing/Icon;)I
-	METHOD showDialog (Ljava/awt/Component;Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;ILjavax/swing/Icon;)I
-	METHOD showDialog (Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;ILjavax/swing/Icon;)I
-	METHOD showEditableChooseDialog (Ljava/lang/String;Ljava/lang/String;Ljavax/swing/Icon;[Ljava/lang/String;Ljava/lang/String;Lcom/intellij/openapi/ui/InputValidator;)Ljava/lang/String;
-	METHOD showInputDialog (Lcom/intellij/openapi/project/Project;Ljava/lang/String;Ljava/lang/String;Ljavax/swing/Icon;)Ljava/lang/String;
-	METHOD showInputDialog (Lcom/intellij/openapi/project/Project;Ljava/lang/String;Ljava/lang/String;Ljavax/swing/Icon;Ljava/lang/String;Lcom/intellij/openapi/ui/InputValidator;)Ljava/lang/String;
-	METHOD showInputDialog (Ljava/awt/Component;Ljava/lang/String;Ljava/lang/String;Ljavax/swing/Icon;)Ljava/lang/String;
-	METHOD showInputDialog (Ljava/awt/Component;Ljava/lang/String;Ljava/lang/String;Ljavax/swing/Icon;Ljava/lang/String;Lcom/intellij/openapi/ui/InputValidator;)Ljava/lang/String;
-	METHOD showInputDialog (Ljava/lang/String;Ljava/lang/String;Ljavax/swing/Icon;)Ljava/lang/String;
-	METHOD showInputDialog (Ljava/lang/String;Ljava/lang/String;Ljavax/swing/Icon;Ljava/lang/String;Lcom/intellij/openapi/ui/InputValidator;)Ljava/lang/String;
-	METHOD showMessageDialog (Lcom/intellij/openapi/project/Project;Ljava/lang/String;Ljava/lang/String;Ljavax/swing/Icon;)V
-	METHOD showMessageDialog (Ljava/awt/Component;Ljava/lang/String;Ljava/lang/String;Ljavax/swing/Icon;)V
-	METHOD showMessageDialog (Ljava/lang/String;Ljava/lang/String;Ljavax/swing/Icon;)V
-	METHOD showOkCancelDialog (Lcom/intellij/openapi/project/Project;Ljava/lang/String;Ljava/lang/String;Ljavax/swing/Icon;)I
-	METHOD showOkCancelDialog (Ljava/awt/Component;Ljava/lang/String;Ljava/lang/String;Ljavax/swing/Icon;)I
-	METHOD showOkCancelDialog (Ljava/lang/String;Ljava/lang/String;Ljavax/swing/Icon;)I
-	METHOD showYesNoCancelDialog (Lcom/intellij/openapi/project/Project;Ljava/lang/String;Ljava/lang/String;Ljavax/swing/Icon;)I
-	METHOD showYesNoCancelDialog (Ljava/awt/Component;Ljava/lang/String;Ljava/lang/String;Ljavax/swing/Icon;)I
-	METHOD showYesNoCancelDialog (Ljava/lang/String;Ljava/lang/String;Ljavax/swing/Icon;)I
-	METHOD showYesNoDialog (Lcom/intellij/openapi/project/Project;Ljava/lang/String;Ljava/lang/String;Ljavax/swing/Icon;)I
-	METHOD showYesNoDialog (Ljava/awt/Component;Ljava/lang/String;Ljava/lang/String;Ljavax/swing/Icon;)I
-	METHOD showYesNoDialog (Ljava/lang/String;Ljava/lang/String;Ljavax/swing/Icon;)I
 	CLASS InputDialog InputDialog
 	CLASS ChooseDialog ChooseDialog
-		METHOD getComboBox ()Ljavax/swing/JComboBox;
-		METHOD getInputString ()Ljava/lang/String;
-		METHOD getSelectedIndex ()I
-		METHOD setValidator (Lcom/intellij/openapi/ui/InputValidator;)V
 	CLASS MessageDialog MessageDialog
