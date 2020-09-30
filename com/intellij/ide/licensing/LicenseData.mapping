@@ -13,6 +13,7 @@ CLASS com/intellij/ide/f/j com/intellij/ide/licensing/LicenseData
 	METHOD a validateLicenseData (Lcom/intellij/ide/f/p;ZZLjava/lang/Runnable;Ljava/lang/Runnable;)V
 		ARG 0 data
 		ARG 1 isExpired
+		ARG 4 hasNotAcceptedTerms
 	METHOD a encodeString (Ljava/io/OutputStream;Ljava/lang/String;)V
 		ARG 0 pit
 		ARG 1 value
@@ -22,6 +23,7 @@ CLASS com/intellij/ide/f/j com/intellij/ide/licensing/LicenseData
 	METHOD a loadLicenseAgreement (Ljava/lang/String;Ljava/lang/String;)V
 		ARG 0 filePath
 		ARG 1 productName
+	METHOD b requestLicenseData ()V
 	METHOD b requestLicenseData (Lcom/intellij/ide/f/p;ZZLjava/lang/Runnable;Ljava/lang/Runnable;)V
 		ARG 0 data
 	METHOD c readLicenseData ()Lcom/intellij/ide/f/p;

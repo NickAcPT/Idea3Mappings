@@ -1,4 +1,4 @@
-CLASS com/intellij/ide/f/u com/intellij/ide/f/LicenseEditPanel
+CLASS com/intellij/ide/f/u com/intellij/ide/licensing/LicenseEditPanel
 	FIELD e licenseKeyField Ljavax/swing/JTextField;
 	FIELD f usernameField Ljavax/swing/JTextField;
 	METHOD a setLicenseKeyText (Ljava/lang/String;)V
