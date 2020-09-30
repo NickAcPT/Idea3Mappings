@@ -1,0 +1,13 @@
+CLASS com/intellij/util/ShutDownTracker com/intellij/util/ShutDownTracker
+	FIELD a logger Lcom/intellij/openapi/diagnostic/Logger;
+	FIELD b shutdownTracker Lcom/intellij/util/ShutDownTracker;
+	FIELD c stopperThreads Ljava/util/List;
+	METHOD a stopperThreads ()[Ljava/lang/Thread;
+	METHOD a hasThread (Ljava/lang/Thread;)Z
+		ARG 1 thread
+	METHOD getInstance ()Lcom/intellij/util/ShutDownTracker;
+	METHOD registerStopperThread (Ljava/lang/Thread;)V
+		ARG 1 thread
+	METHOD run ()V
+	METHOD unregisterStopperThread (Ljava/lang/Thread;)V
+		ARG 1 thread

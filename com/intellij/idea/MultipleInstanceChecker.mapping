@@ -1,0 +1,15 @@
+CLASS com/intellij/idea/r com/intellij/idea/MultipleInstanceChecker
+	FIELD a LOGGER Lcom/intellij/openapi/diagnostic/Logger;
+	FIELD d serverSocket Ljava/net/ServerSocket;
+	METHOD a dispose ()V
+	METHOD a (I)Ljava/util/List;
+		ARG 1 port
+	METHOD a getServerSocket (Lcom/intellij/idea/r;)Ljava/net/ServerSocket;
+		ARG 0 instanceChecker
+	METHOD a connect (Lcom/intellij/idea/r;Ljava/net/Socket;)V
+		ARG 0 instanceChecker
+		ARG 1 socket
+	METHOD a lock (Ljava/lang/String;)Z
+	METHOD a connect (Ljava/net/Socket;)V
+		ARG 1 socket
+	METHOD c getLogger ()Lcom/intellij/openapi/diagnostic/Logger;

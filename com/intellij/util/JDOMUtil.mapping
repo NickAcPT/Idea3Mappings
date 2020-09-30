@@ -1,0 +1,3 @@
+CLASS com/intellij/util/JDOMUtil com/intellij/util/JDOMUtil
+	METHOD loadDocument (Ljava/io/File;)Lorg/jdom/Document;
+	METHOD loadDocument (Ljava/io/InputStream;)Lorg/jdom/Document;

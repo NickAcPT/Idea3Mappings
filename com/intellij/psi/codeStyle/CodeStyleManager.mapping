@@ -1,0 +1,3 @@
+CLASS com/intellij/psi/codeStyle/CodeStyleManager
+	METHOD optimizeImports (Lcom/intellij/psi/PsiFile;)V
+	METHOD shortenClassReferences (Lcom/intellij/psi/PsiElement;II)V

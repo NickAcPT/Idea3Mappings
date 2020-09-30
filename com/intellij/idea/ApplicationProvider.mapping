@@ -1,0 +1,4 @@
+CLASS com/intellij/idea/q com/intellij/idea/ApplicationProvider
+	METHOD a getIdeaApplication (Lcom/intellij/ui/fh;[Ljava/lang/String;)Lcom/intellij/openapi/application/b/e;
+		ARG 1 window
+		ARG 2 args

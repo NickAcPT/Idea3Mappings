@@ -1,0 +1,2 @@
+CLASS com/intellij/util/ImageLoader com/intellij/util/ImageLoader
+	METHOD loadFromResource loadRes (Ljava/lang/String;)Ljava/awt/Image;

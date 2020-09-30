@@ -1,0 +1,11 @@
+CLASS com/intellij/ide/f/a/e com/intellij/ide/licensing/data/EvaluationLicense
+	FIELD a userName Ljava/lang/String;
+	FIELD b customerId I
+	FIELD c productId I
+	FIELD d licenseType I
+	FIELD e majorVersion I
+	FIELD f minorVersion I
+	FIELD g generationDate Ljava/util/Date;
+	FIELD h expirationDate Ljava/util/Date;
+	METHOD equals (Ljava/lang/Object;)Z
+		ARG 1 other

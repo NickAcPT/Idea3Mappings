@@ -1,0 +1,4 @@
+CLASS com/intellij/openapi/project/Project
+	METHOD getProjectFile ()Lcom/intellij/openapi/vfs/VirtualFile;
+	METHOD getWorkspaceFile ()Lcom/intellij/openapi/vfs/VirtualFile;
+	METHOD save ()V

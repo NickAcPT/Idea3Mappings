@@ -1,0 +1,3 @@
+CLASS com/intellij/openapi/project/ProjectManager
+	METHOD getInstance ()Lcom/intellij/openapi/project/ProjectManager;
+	METHOD getOpenProjects ()[Lcom/intellij/openapi/project/Project;

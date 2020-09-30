@@ -1,0 +1,4 @@
+CLASS com/intellij/openapi/vfs/VirtualFile com/intellij/openapi/vfs/VirtualFile
+	METHOD findChild (Ljava/lang/String;)Lcom/intellij/openapi/vfs/VirtualFile;
+	METHOD getNameWithoutExtension ()Ljava/lang/String;
+	METHOD getParent ()Lcom/intellij/openapi/vfs/VirtualFile;

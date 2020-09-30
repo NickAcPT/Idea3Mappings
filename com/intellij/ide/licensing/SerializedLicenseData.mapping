@@ -1,0 +1,4 @@
+CLASS com/intellij/ide/f/p com/intellij/ide/licensing/SerializedLicenseData
+	FIELD c expirationDate J
+	METHOD <init> (Ljava/lang/String;Ljava/lang/String;J)V
+		ARG 3 lastModifiedDate

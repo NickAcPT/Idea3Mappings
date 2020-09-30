@@ -1,0 +1,2 @@
+CLASS com/intellij/openapi/application/ApplicationManager com/intellij/openapi/application/ApplicationManager
+	METHOD getApplication ()Lcom/intellij/openapi/application/Application;

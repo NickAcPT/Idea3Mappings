@@ -1,0 +1,2 @@
+CLASS com/intellij/refactoring/d/d
+	FIELD a LOGGER Lcom/intellij/openapi/diagnostic/Logger;

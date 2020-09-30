@@ -1,0 +1,2 @@
+CLASS com/intellij/util/LaterInvokator com/intellij/util/LaterInvokator
+	METHOD enterModal ()V

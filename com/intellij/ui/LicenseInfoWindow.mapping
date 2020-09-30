@@ -1,0 +1,8 @@
+CLASS com/intellij/ui/fh com/intellij/ui/LicenseInfoWindow
+	FIELD a months [Ljava/lang/String;
+	FIELD b licensedToText Ljavax/swing/JLabel;
+	FIELD c extraData Ljavax/swing/JLabel;
+	METHOD <init> (Ljava/lang/String;)V
+		ARG 1 icon
+	METHOD a loadData (Lcom/intellij/ide/f/a/e;)V
+		ARG 1 license

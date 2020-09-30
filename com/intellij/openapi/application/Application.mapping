@@ -1,0 +1,15 @@
+CLASS com/intellij/openapi/application/Application
+	METHOD addApplicationListener (Lcom/intellij/openapi/application/ApplicationListener;)V
+		ARG 1 applicationListener
+	METHOD assertIsDispatchThread ()V
+	METHOD assertReadAccessAllowed ()V
+	METHOD assertWriteAccessAllowed ()V
+	METHOD exit ()V
+	METHOD getCommandLineArguments ()[Ljava/lang/String;
+	METHOD getCurrentWriteAction (Ljava/lang/Class;)Ljava/lang/Runnable;
+	METHOD removeApplicationListener (Lcom/intellij/openapi/application/ApplicationListener;)V
+		ARG 1 applicationListener
+	METHOD runReadAction (Ljava/lang/Runnable;)V
+	METHOD runWriteAction (Ljava/lang/Runnable;)V
+	METHOD saveAll ()V
+	METHOD saveSettings ()V

@@ -1,0 +1,19 @@
+CLASS com/intellij/openapi/application/PathManager com/intellij/openapi/application/PathManager
+	FIELD a systemPathConst Ljava/lang/String;
+	FIELD b configPathConst Ljava/lang/String;
+	FIELD c homePathConst Ljava/lang/String;
+	FIELD d homePath Ljava/lang/String;
+	FIELD e systemPath Ljava/lang/String;
+	FIELD f configPath Ljava/lang/String;
+	METHOD a sanitizePath (Ljava/lang/String;)Ljava/lang/String;
+	METHOD b getIdeaHomeOrDefault (Ljava/lang/String;)Ljava/lang/String;
+		ARG 0 file
+	METHOD getBinPath ()Ljava/lang/String;
+	METHOD getConfigPath ()Ljava/lang/String;
+	METHOD getHelpPath ()Ljava/lang/String;
+	METHOD getHomePath getUsrHome ()Ljava/lang/String;
+	METHOD getLibPath ()Ljava/lang/String;
+	METHOD getOptionsPath ()Ljava/lang/String;
+	METHOD getPluginsPath getPluginsFolder ()Ljava/lang/String;
+	METHOD getSystemPath ()Ljava/lang/String;
+	METHOD getTipsPath ()Ljava/lang/String;

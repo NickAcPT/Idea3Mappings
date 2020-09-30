@@ -1,0 +1,3 @@
+CLASS com/intellij/openapi/wm/ToolWindowManager
+	METHOD getInstance (Lcom/intellij/openapi/project/Project;)Lcom/intellij/openapi/wm/ToolWindowManager;
+	METHOD registerToolWindow (Ljava/lang/String;Ljavax/swing/JComponent;Lcom/intellij/openapi/wm/ToolWindowAnchor;)Lcom/intellij/openapi/wm/ToolWindow;

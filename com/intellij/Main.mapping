@@ -1,0 +1,19 @@
+CLASS com/intellij/idea/Main com/intellij/Main
+	FIELD a logger Lcom/intellij/openapi/diagnostic/Logger;
+	FIELD b NAME Ljava/lang/String;
+	FIELD c instanceChecker Lcom/intellij/idea/r;
+	FIELD d mainClazz Ljava/lang/Class;
+	METHOD a isValidInstance ()Z
+	METHOD a tryGetClass (Ljava/lang/String;)Ljava/lang/Class;
+		ARG 0 clazz
+	METHOD a loadLicenseAgreement ([Ljava/lang/String;Lcom/intellij/idea/q;)V
+		ARG 0 args
+	METHOD b isSingleInstance ()Z
+	METHOD c isSunJdk ()Z
+	METHOD d evaluateLicence ()V
+	METHOD e getLogger ()Lcom/intellij/openapi/diagnostic/Logger;
+	METHOD f staticEvaluateLicense ()V
+	METHOD main ([Ljava/lang/String;)V
+		ARG 0 args
+	METHOD start ([Ljava/lang/String;)V
+		ARG 0 args

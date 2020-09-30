@@ -1,0 +1,6 @@
+CLASS com/intellij/ide/f/c com/intellij/ide/licensing/DialogWindowAdapter
+	FIELD a dialog Lcom/intellij/ide/f/t;
+	METHOD <init> (Lcom/intellij/ide/f/t;)V
+		ARG 1 dialog
+	METHOD windowClosing (Ljava/awt/event/WindowEvent;)V
+		ARG 1 windowEvent

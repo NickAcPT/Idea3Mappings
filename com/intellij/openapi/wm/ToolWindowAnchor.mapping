@@ -1,0 +1,6 @@
+CLASS com/intellij/openapi/wm/ToolWindowAnchor com/intellij/openapi/wm/ToolWindowAnchor
+	FIELD BOTTOM Lcom/intellij/openapi/wm/ToolWindowAnchor;
+	FIELD LEFT Lcom/intellij/openapi/wm/ToolWindowAnchor;
+	FIELD RIGHT Lcom/intellij/openapi/wm/ToolWindowAnchor;
+	FIELD TOP Lcom/intellij/openapi/wm/ToolWindowAnchor;
+	FIELD a name Ljava/lang/String;

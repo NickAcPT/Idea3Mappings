@@ -1,0 +1,3 @@
+CLASS com/intellij/ide/f/s com/intellij/ide/dialogs/LicenseDialog
+	FIELD t centerPanel Lcom/intellij/ide/f/u;
+	FIELD v cancelAction Ljava/lang/Runnable;

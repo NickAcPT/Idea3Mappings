@@ -1,0 +1,12 @@
+CLASS com/intellij/openapi/diagnostic/Logger com/intellij/openapi/diagnostic/Logger
+	METHOD assertTrue (Z)Z
+	METHOD assertTrue (ZLjava/lang/String;)Z
+	METHOD debug (Ljava/lang/String;)V
+	METHOD debug (Ljava/lang/Throwable;)V
+	METHOD error (Ljava/lang/String;)V
+	METHOD error (Ljava/lang/Throwable;)V
+	METHOD getInstance (Ljava/lang/String;)Lcom/intellij/openapi/diagnostic/Logger;
+	METHOD info (Ljava/lang/String;)V
+	METHOD info (Ljava/lang/String;Ljava/lang/Throwable;)V
+	METHOD info (Ljava/lang/Throwable;)V
+	METHOD isDebugEnabled ()Z

@@ -1,0 +1,3 @@
+CLASS com/intellij/ide/b/e
+	FIELD FONT_FACE Ljava/lang/String;
+	FIELD FONT_SIZE I

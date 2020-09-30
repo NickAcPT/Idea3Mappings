@@ -1,0 +1,10 @@
+CLASS com/intellij/openapi/command/CommandProcessor com/intellij/openapi/command/CommandProcessor
+	METHOD addCommandListener (Lcom/intellij/openapi/command/CommandListener;)V
+		ARG 1 commandListener
+	METHOD executeCommand (Ljava/lang/Runnable;Ljava/lang/String;Ljava/lang/Object;)V
+	METHOD getCurrentCommand ()Ljava/lang/Runnable;
+	METHOD getCurrentCommandName ()Ljava/lang/String;
+	METHOD getInstance ()Lcom/intellij/openapi/command/CommandProcessor;
+	METHOD removeCommandListener (Lcom/intellij/openapi/command/CommandListener;)V
+	METHOD setCurrentCommandGroupId (Ljava/lang/Object;)V
+	METHOD setCurrentCommandName (Ljava/lang/String;)V

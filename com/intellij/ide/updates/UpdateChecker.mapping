@@ -1,0 +1,7 @@
+CLASS com/intellij/ide/c/c com/intellij/ide/updates/UpdateChecker
+	FIELD a LOGGER Lcom/intellij/openapi/diagnostic/Logger;
+	FIELD d updateURL Ljava/net/URL;
+	METHOD a checkForUpdates ()V
+	METHOD a getNamedClass (Ljava/lang/String;)Ljava/lang/Class;
+		ARG 0 clazz
+	METHOD d getLogger ()Lcom/intellij/openapi/diagnostic/Logger;

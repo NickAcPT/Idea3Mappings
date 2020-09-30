@@ -1,0 +1,8 @@
+CLASS com/intellij/ide/f/a/f com/intellij/ide/licensing/data/LicenseType
+	FIELD a COMMERCIAL I
+	FIELD b NON_COMMERCIAL I
+	FIELD c SITE I
+	METHOD a getNameFromOrdinal (I)Ljava/lang/String;
+		ARG 0 id
+	METHOD a getFromName (Ljava/lang/String;)I
+		ARG 0 name

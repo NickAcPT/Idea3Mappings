@@ -1,0 +1,2 @@
+CLASS com/intellij/ide/f/a/d com/intellij/ide/licensing/data/EvaluationLicenseManager
+	METHOD a getEvaluationLicense (Ljava/lang/String;Ljava/lang/String;)Lcom/intellij/ide/f/a/e;

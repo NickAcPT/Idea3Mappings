@@ -1,0 +1,4 @@
+CLASS com/intellij/openapi/components/BaseComponent com/intellij/openapi/components/BaseComponent
+	METHOD disposeComponent ()V
+	METHOD getComponentName ()Ljava/lang/String;
+	METHOD initComponent ()V

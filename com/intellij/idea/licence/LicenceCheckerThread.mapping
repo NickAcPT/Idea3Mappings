@@ -1,0 +1,4 @@
+CLASS com/intellij/idea/k com/intellij/idea/licence/LicenceCheckerThread
+	FIELD b args [Ljava/lang/String;
+	METHOD <init> (Lcom/intellij/idea/q;[Ljava/lang/String;)V
+		ARG 2 args

@@ -1,0 +1,3 @@
+CLASS com/intellij/openapi/wm/WindowManager
+	METHOD doNotSuggestAsParent (Ljava/awt/Window;)V
+	METHOD suggestParentWindow (Lcom/intellij/openapi/project/Project;)Ljava/awt/Window;

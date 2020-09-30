@@ -1,0 +1,3 @@
+CLASS com/intellij/psi/a/c/g/b com/intellij/psi/impl/source/codeStyle/CodeStyleManagerImpl
+	FIELD CODE_STYLE_SCHEME Ljava/lang/String;
+	FIELD USE_DEFAULT_CODE_STYLE_SCHEME Z

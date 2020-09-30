@@ -1,0 +1,25 @@
+CLASS com/intellij/ide/j/b com/intellij/ide/plugin/IdeaPlugin
+	FIELD a name Ljava/lang/String;
+	FIELD b description Ljava/lang/String;
+	FIELD c version Ljava/lang/String;
+	FIELD d vendor Ljava/lang/String;
+	FIELD e min Ljava/lang/String;
+	FIELD f max Ljava/lang/String;
+	FIELD g file Ljava/io/File;
+	FIELD h actions Lorg/jdom/Element;
+	FIELD i appComponents Lorg/jdom/Element;
+	FIELD j projectComponents Lorg/jdom/Element;
+	METHOD <init> (Ljava/io/File;)V
+		ARG 1 file
+	METHOD a getDescription ()Ljava/lang/String;
+	METHOD a setFile (Ljava/io/File;)V
+		ARG 1 file
+	METHOD b getMax ()Ljava/lang/String;
+	METHOD c getMin ()Ljava/lang/String;
+	METHOD d getName ()Ljava/lang/String;
+	METHOD e getVendor ()Ljava/lang/String;
+	METHOD f getVersion ()Ljava/lang/String;
+	METHOD g getClasses ()Ljava/util/List;
+	METHOD h getActions ()Lorg/jdom/Element;
+	METHOD i getAppComponents ()Lorg/jdom/Element;
+	METHOD j getProjectComponents ()Lorg/jdom/Element;

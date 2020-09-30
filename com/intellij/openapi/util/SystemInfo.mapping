@@ -1,0 +1,13 @@
+CLASS com/intellij/openapi/util/SystemInfo com/intellij/openapi/util/SystemInfo
+	FIELD JAVA_VERSION Ljava/lang/String;
+	FIELD a osName Ljava/lang/String;
+	FIELD isFileSystemCaseSensitive Z
+	FIELD isFreeBSD Z
+	FIELD isMac Z
+	FIELD isOS2 Z
+	FIELD isUnix Z
+	FIELD isWindows2000 Z
+	FIELD isWindows9x Z
+	FIELD isWindowsNT Z
+	FIELD isWindowsXP Z
+	FIELD isWindows Z

@@ -1,0 +1,7 @@
+CLASS com/intellij/openapi/project/a/c
+	FIELD q version I
+	FIELD t PROJECT_DIR_PLACEHOLDER Ljava/lang/String;
+	FIELD u APPLICATION_HOME_DIR_PLACEHOLDER Ljava/lang/String;
+	FIELD w WINDOW_CONFIGURATION_EXTENSION Ljava/lang/String;
+	FIELD y relativePaths Z
+	METHOD j getVersion ()I

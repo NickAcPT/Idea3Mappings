@@ -1,0 +1,28 @@
+CLASS com/intellij/ide/f/j com/intellij/ide/licensing/LicenseData
+	FIELD a LOGGER Lcom/intellij/openapi/diagnostic/Logger;
+	FIELD b evaluationLicence Lcom/intellij/ide/f/a/e;
+	FIELD d systemLicensePath Ljava/lang/String;
+	FIELD e binLicensePath Ljava/lang/String;
+	FIELD f productLicenseAgreement Ljava/lang/String;
+	FIELD g productName Ljava/lang/String;
+	FIELD h isValid Z
+	METHOD a isInvalidLicense ()Z
+	METHOD a writeLicense (Lcom/intellij/ide/f/p;)V
+		ARG 0 data
+	METHOD a validateLicenseData (Lcom/intellij/ide/f/p;ZZLjava/lang/Runnable;Ljava/lang/Runnable;)V
+		ARG 0 data
+		ARG 1 isExpired
+	METHOD a encodeString (Ljava/io/OutputStream;Ljava/lang/String;)V
+		ARG 0 pit
+		ARG 1 value
+	METHOD a readLicenceData (Ljava/lang/Runnable;Ljava/lang/Runnable;)V
+	METHOD a setLicenseAgreement (Ljava/lang/String;)V
+		ARG 0 data
+	METHOD a loadLicenseAgreement (Ljava/lang/String;Ljava/lang/String;)V
+		ARG 0 filePath
+		ARG 1 productName
+	METHOD b requestLicenseData (Lcom/intellij/ide/f/p;ZZLjava/lang/Runnable;Ljava/lang/Runnable;)V
+		ARG 0 data
+	METHOD c readLicenseData ()Lcom/intellij/ide/f/p;
+	METHOD c staticValidateLicenseData (Lcom/intellij/ide/f/p;ZZLjava/lang/Runnable;Ljava/lang/Runnable;)V
+		ARG 0 data

@@ -1,0 +1,25 @@
+CLASS com/intellij/openapi/application/b/e com/intellij/openapi/application/b/IDEAApplication
+	FIELD l logger Lcom/intellij/openapi/diagnostic/Logger;
+	FIELD m applicationListeners Ljava/util/ArrayList;
+	FIELD r isInternal Z
+	FIELD t thread Ljava/lang/Thread;
+	METHOD a exit (Lcom/intellij/openapi/application/b/e;)V
+		ARG 0 app
+	METHOD a beforeWriteActionStart (Ljava/lang/Runnable;)V
+	METHOD a setThread (Ljava/lang/Thread;)Z
+		ARG 0 thread
+	METHOD a setIsInternal (Z)V
+		ARG 0 isInternal
+	METHOD b (Lcom/intellij/openapi/application/b/e;)V
+		ARG 0 app
+	METHOD b writeActionStarted (Ljava/lang/Runnable;)V
+	METHOD c getResourceStream (Lcom/intellij/openapi/components/BaseComponent;)Ljava/io/InputStream;
+		ARG 1 baseComponent
+	METHOD c writeActionFinished (Ljava/lang/Runnable;)V
+	METHOD h (Ljava/lang/String;)V
+		ARG 1 directory
+	METHOD i isInternal ()Z
+	METHOD i (Ljava/lang/String;)V
+		ARG 1 fileName
+	METHOD m exitApplication ()V
+	METHOD o getApplication ()Lcom/intellij/openapi/application/b/e;
