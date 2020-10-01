@@ -1,0 +1,4 @@
+CLASS com/intellij/ide/c/f com/intellij/ide/c/UpdateCheckerComponent
+	FIELD ASK_USER Z
+	FIELD CHECK_UPDATES Z
+	FIELD LAST_TIME_CHECKED J

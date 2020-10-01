@@ -10,6 +10,7 @@ CLASS com/intellij/idea/r com/intellij/idea/MultipleInstanceChecker
 		ARG 0 instanceChecker
 		ARG 1 socket
 	METHOD a lock (Ljava/lang/String;)Z
+		ARG 1 path
 	METHOD a connect (Ljava/net/Socket;)V
 		ARG 1 socket
 	METHOD c getLogger ()Lcom/intellij/openapi/diagnostic/Logger;

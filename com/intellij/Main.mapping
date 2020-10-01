@@ -8,6 +8,7 @@ CLASS com/intellij/idea/Main com/intellij/Main
 		ARG 0 clazz
 	METHOD a loadLicenseAgreement ([Ljava/lang/String;Lcom/intellij/idea/q;)V
 		ARG 0 args
+		ARG 1 applicationProvider
 	METHOD b isSingleInstance ()Z
 	METHOD c isSunJdk ()Z
 	METHOD d evaluateLicence ()V
