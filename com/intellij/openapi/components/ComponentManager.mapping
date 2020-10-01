@@ -1,3 +1,4 @@
 CLASS com/intellij/openapi/components/ComponentManager
 	METHOD getComponent (Ljava/lang/Class;)Ljava/lang/Object;
 		ARG 1 clazz
+	METHOD hasComponent (Ljava/lang/Class;)Z

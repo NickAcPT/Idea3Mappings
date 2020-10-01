@@ -1,6 +1,3 @@
 CLASS com/intellij/openapi/application/ApplicationInfo com/intellij/openapi/application/ApplicationInfo
-	METHOD getBuildDate ()Ljava/util/Calendar;
 	METHOD getBuildNumber ()Ljava/lang/String;
-	METHOD getMajorVersion ()Ljava/lang/String;
-	METHOD getMinorVersion ()Ljava/lang/String;
-	METHOD getVersionName ()Ljava/lang/String;
+	METHOD getInstance ()Lcom/intellij/openapi/application/ApplicationInfo;

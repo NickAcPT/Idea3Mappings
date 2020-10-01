@@ -1,4 +1,4 @@
-CLASS com/intellij/openapi/util/JDOMExternalizable
+CLASS com/intellij/openapi/util/JDOMExternalizable com/intellij/openapi/util/JDOMExternalizable
 	METHOD readExternal (Lorg/jdom/Element;)V
 		ARG 1 pluginMetadata
 	METHOD writeExternal (Lorg/jdom/Element;)V

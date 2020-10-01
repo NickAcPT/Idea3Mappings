@@ -5,4 +5,5 @@ CLASS com/intellij/ide/c/c com/intellij/ide/updates/UpdateChecker
 	METHOD a getNamedClass (Ljava/lang/String;)Ljava/lang/Class;
 		ARG 0 clazz
 	METHOD b loadVersionInfo ()Lorg/jdom/Document;
+	METHOD c loadVersionInfo ()Lorg/jdom/Document;
 	METHOD d getLogger ()Lcom/intellij/openapi/diagnostic/Logger;

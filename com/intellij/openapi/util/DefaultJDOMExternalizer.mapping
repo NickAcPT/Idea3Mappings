@@ -1,0 +1,8 @@
+CLASS com/intellij/openapi/util/DefaultJDOMExternalizer com/intellij/openapi/util/DefaultJDOMExternalizer
+	FIELD a logger Lcom/intellij/openapi/diagnostic/Logger;
+	METHOD readExternal (Ljava/lang/Object;Lorg/jdom/Element;)V
+	METHOD writeExternal (Ljava/lang/Object;Lorg/jdom/Element;)V
+	METHOD writeExternal (Ljava/lang/Object;Lorg/jdom/Element;Lcom/intellij/openapi/util/DefaultJDOMExternalizer$JDOMFilter;)V
+		ARG 2 jDOMFilter
+	CLASS JDOMFilter JDOMFilter
+		METHOD isAccept (Ljava/lang/reflect/Field;)Z

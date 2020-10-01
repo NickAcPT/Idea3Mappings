@@ -1,2 +1,15 @@
 CLASS com/intellij/util/JDOMUtil com/intellij/util/JDOMUtil
+	METHOD a (Lorg/jdom/Element;)Lcom/intellij/util/JDOMUtil$ElementInfo;
+		ARG 0 element
+	METHOD a (Lorg/jdom/Element;Ljava/lang/String;)V
+		ARG 0 element
+	METHOD createOutputter ()Lorg/jdom/output/XMLOutputter;
+	METHOD loadDocument (Ljava/io/File;)Lorg/jdom/Document;
 	METHOD loadDocument (Ljava/io/InputStream;)Lorg/jdom/Document;
+	METHOD writeDocument (Lorg/jdom/Document;Ljava/io/File;)V
+	METHOD writeDocument (Lorg/jdom/Document;Ljava/io/OutputStream;)V
+	METHOD writeDocument (Lorg/jdom/Document;Ljava/io/Writer;)V
+	METHOD writeDocument (Lorg/jdom/Document;Ljava/lang/String;)V
+	CLASS ElementInfo ElementInfo
+		FIELD hasNullAttributes Z
+	CLASS MyXMLOutputter MyXMLOutputter
