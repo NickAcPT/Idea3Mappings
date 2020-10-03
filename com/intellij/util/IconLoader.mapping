@@ -1,3 +1,2 @@
 CLASS com/intellij/util/IconLoader com/intellij/util/IconLoader
-	METHOD getIcon (Ljava/lang/String;)Ljavax/swing/Icon;
 	CLASS MyImageIcon MyImageIcon

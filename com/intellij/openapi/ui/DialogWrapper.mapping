@@ -1,12 +1,1 @@
 CLASS com/intellij/openapi/ui/DialogWrapper com/intellij/openapi/ui/DialogWrapper
-	METHOD createCenterPanel ()Ljavax/swing/JComponent;
-	METHOD doCancelAction ()V
-	METHOD getExitCode ()I
-	METHOD getPreferredFocusedComponent ()Ljavax/swing/JComponent;
-	METHOD init ()V
-	METHOD pack ()V
-	METHOD setButtonsAlignment (I)V
-	METHOD setCancelButtonText (Ljava/lang/String;)V
-	METHOD setOKButtonText (Ljava/lang/String;)V
-	METHOD setTitle (Ljava/lang/String;)V
-	METHOD show ()V

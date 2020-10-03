@@ -1,3 +1,2 @@
 CLASS com/intellij/openapi/application/ApplicationManager com/intellij/openapi/application/ApplicationManager
 	FIELD ourApplication Lcom/intellij/openapi/application/Application;
-	METHOD getApplication ()Lcom/intellij/openapi/application/Application;

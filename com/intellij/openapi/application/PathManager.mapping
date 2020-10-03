@@ -10,4 +10,3 @@ CLASS com/intellij/openapi/application/PathManager com/intellij/openapi/applicat
 		ARG 0 file
 	METHOD getHomePath getUsrHome ()Ljava/lang/String;
 	METHOD getPluginsPath getPluginsFolder ()Ljava/lang/String;
-	METHOD getSystemPath ()Ljava/lang/String;

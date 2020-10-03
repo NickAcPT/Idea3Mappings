@@ -1,4 +1,4 @@
-CLASS com/intellij/openapi/project/a/c
+CLASS com/intellij/openapi/project/a/c com/intellij/openapi/project/a/c
 	FIELD q version I
 	FIELD t PROJECT_DIR_PLACEHOLDER Ljava/lang/String;
 	FIELD u APPLICATION_HOME_DIR_PLACEHOLDER Ljava/lang/String;

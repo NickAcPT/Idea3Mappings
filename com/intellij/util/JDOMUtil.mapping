@@ -1,15 +1,25 @@
 CLASS com/intellij/util/JDOMUtil com/intellij/util/JDOMUtil
+	FIELD a LOGGER Lcom/intellij/openapi/diagnostic/Logger;
+	METHOD a newSaxBuilder ()Lorg/jdom/input/SAXBuilder;
 	METHOD a (Lorg/jdom/Element;)Lcom/intellij/util/JDOMUtil$ElementInfo;
 		ARG 0 element
 	METHOD a (Lorg/jdom/Element;Ljava/lang/String;)V
 		ARG 0 element
-	METHOD createOutputter ()Lorg/jdom/output/XMLOutputter;
 	METHOD loadDocument (Ljava/io/File;)Lorg/jdom/Document;
+		ARG 0 file
 	METHOD loadDocument (Ljava/io/InputStream;)Lorg/jdom/Document;
+		ARG 0 inputStream
+	METHOD printDocument (Lorg/jdom/Document;)[B
+		ARG 0 document
 	METHOD writeDocument (Lorg/jdom/Document;Ljava/io/File;)V
+		ARG 0 document
+		ARG 1 file
 	METHOD writeDocument (Lorg/jdom/Document;Ljava/io/OutputStream;)V
-	METHOD writeDocument (Lorg/jdom/Document;Ljava/io/Writer;)V
+		ARG 0 document
+		ARG 1 outputStream
 	METHOD writeDocument (Lorg/jdom/Document;Ljava/lang/String;)V
+		ARG 0 document
+		ARG 1 string
 	CLASS ElementInfo ElementInfo
 		FIELD hasNullAttributes Z
 	CLASS MyXMLOutputter MyXMLOutputter

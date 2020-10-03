@@ -1,3 +1,1 @@
 CLASS com/intellij/openapi/application/ApplicationInfo com/intellij/openapi/application/ApplicationInfo
-	METHOD getBuildNumber ()Ljava/lang/String;
-	METHOD getInstance ()Lcom/intellij/openapi/application/ApplicationInfo;

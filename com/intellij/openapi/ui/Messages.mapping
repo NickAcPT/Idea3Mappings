@@ -1,5 +1,4 @@
 CLASS com/intellij/openapi/ui/Messages com/intellij/openapi/ui/Messages
-	METHOD getInformationIcon ()Ljavax/swing/Icon;
 	CLASS InputDialog InputDialog
 	CLASS ChooseDialog ChooseDialog
 	CLASS MessageDialog MessageDialog

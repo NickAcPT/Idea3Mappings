@@ -1,5 +1,3 @@
 CLASS com/intellij/openapi/command/CommandProcessor com/intellij/openapi/command/CommandProcessor
 	METHOD addCommandListener (Lcom/intellij/openapi/command/CommandListener;)V
 		ARG 1 commandListener
-	METHOD getCurrentCommandName ()Ljava/lang/String;
-	METHOD getInstance ()Lcom/intellij/openapi/command/CommandProcessor;

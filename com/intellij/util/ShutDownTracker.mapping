@@ -5,9 +5,7 @@ CLASS com/intellij/util/ShutDownTracker com/intellij/util/ShutDownTracker
 	METHOD a stopperThreads ()[Ljava/lang/Thread;
 	METHOD a hasThread (Ljava/lang/Thread;)Z
 		ARG 1 thread
-	METHOD getInstance ()Lcom/intellij/util/ShutDownTracker;
 	METHOD registerStopperThread (Ljava/lang/Thread;)V
 		ARG 1 thread
-	METHOD run ()V
 	METHOD unregisterStopperThread (Ljava/lang/Thread;)V
 		ARG 1 thread
