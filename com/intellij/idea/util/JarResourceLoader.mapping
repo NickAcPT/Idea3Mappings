@@ -1,0 +1,2 @@
+CLASS com/intellij/idea/f com/intellij/idea/util/JarResourceLoader
+	METHOD a loadResource (Ljava/lang/Object;Ljava/lang/String;)Ljava/io/InputStream;
