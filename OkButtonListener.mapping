@@ -1,4 +1,0 @@
-CLASS com/intellij/ide/f/m com/intellij/ide/licensing/OkButtonListener
-	FIELD a dialog Lcom/intellij/ide/f/t;
-	METHOD <init> (Lcom/intellij/ide/f/t;)V
-		ARG 1 dialog
