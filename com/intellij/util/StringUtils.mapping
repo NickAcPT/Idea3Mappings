@@ -1,0 +1,14 @@
+CLASS com/intellij/util/f/f com/intellij/util/StringUtils
+	METHOD a findAndReplace (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+		ARG 0 initial
+		ARG 1 find
+		ARG 2 replace
+	METHOD a replaceOccurrences (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Z)Ljava/lang/String;
+		ARG 0 initial
+		ARG 1 find
+		ARG 2 replace
+		ARG 3 ignoreCase
+	METHOD b findAndReplaceIgnoreCase (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+		ARG 0 initial
+		ARG 1 find
+		ARG 2 replace

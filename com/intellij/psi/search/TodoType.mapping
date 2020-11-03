@@ -1,0 +1,6 @@
+CLASS com/intellij/psi/search/TodoType com/intellij/psi/search/TodoType
+	FIELD DEFAULT Lcom/intellij/psi/search/TodoType;
+	FIELD IMPORTANT Lcom/intellij/psi/search/TodoType;
+	FIELD QUESTION Lcom/intellij/psi/search/TodoType;
+	FIELD a name Ljava/lang/String;
+	FIELD b icon Ljavax/swing/Icon;

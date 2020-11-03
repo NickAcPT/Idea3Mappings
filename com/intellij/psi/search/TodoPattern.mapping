@@ -1,0 +1,13 @@
+CLASS com/intellij/psi/search/TodoPattern com/intellij/psi/search/TodoPattern
+	FIELD a LOGGER Lcom/intellij/openapi/diagnostic/Logger;
+	FIELD b regex Ljava/lang/String;
+	FIELD c type Lcom/intellij/psi/search/TodoType;
+	FIELD d ignoreCase Z
+	FIELD e pattern Ljava/util/regex/Pattern;
+	METHOD <init> (Ljava/lang/String;Lcom/intellij/psi/search/TodoType;Z)V
+		ARG 1 regex
+		ARG 2 type
+		ARG 3 ignoreCase
+	METHOD a compileRegex ()V
+	METHOD equals (Ljava/lang/Object;)Z
+		ARG 1 o

@@ -4,15 +4,15 @@ CLASS com/intellij/ide/j/c com/intellij/ide/plugins/PluginManager
 	FIELD TOOLS_JAR Ljava/lang/String;
 	FIELD a IdeaClass Ljava/lang/Class;
 	FIELD myArguments args [Ljava/lang/String;
-	FIELD myMainClass mainClass Ljava/lang/String;
-	FIELD myMethodName mainMethodName Ljava/lang/String;
+	FIELD myMainClass mainClassName Ljava/lang/String;
+	FIELD myMethodName startMethodName Ljava/lang/String;
 	FIELD myPlugins ideaPlugins [Lcom/intellij/ide/j/b;
 	METHOD a getPlugins ()[Lcom/intellij/ide/j/b;
 	METHOD a loadIdeaPlugin (Ljava/io/File;)Lcom/intellij/ide/j/b;
 		ARG 0 pluginFile
 	METHOD a getClassFromName (Ljava/lang/String;)Ljava/lang/Class;
 		ARG 0 className
-	METHOD a classpath2EletricBoogaloo (Ljava/util/List;)V
+	METHOD a loadListWithClasspath (Ljava/util/List;)V
 		ARG 1 classpath
 	METHOD a main ([Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 		ARG 0 args
@@ -24,6 +24,6 @@ CLASS com/intellij/ide/j/c com/intellij/ide/plugins/PluginManager
 	METHOD c setupReflection ()V
 	METHOD d getLogger ()Lcom/intellij/openapi/diagnostic/Logger;
 	METHOD e getMainClass ()Ljava/lang/String;
-	METHOD f getMainMethodName ()Ljava/lang/String;
+	METHOD f getStartMethod ()Ljava/lang/String;
 	METHOD g getArgs ()[Ljava/lang/String;
 	METHOD start init ()V

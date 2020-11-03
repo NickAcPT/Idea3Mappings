@@ -1,0 +1,2 @@
+CLASS com/intellij/ide/todo/TodoFilter com/intellij/ide/todo/TodoFilter
+	FIELD a LOGGER Lcom/intellij/openapi/diagnostic/Logger;

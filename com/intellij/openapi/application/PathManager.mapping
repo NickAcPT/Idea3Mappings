@@ -8,5 +8,4 @@ CLASS com/intellij/openapi/application/PathManager com/intellij/openapi/applicat
 	METHOD a sanitizePath (Ljava/lang/String;)Ljava/lang/String;
 	METHOD b getIdeaHomeOrDefault (Ljava/lang/String;)Ljava/lang/String;
 		ARG 0 file
-	METHOD getHomePath getUsrHome ()Ljava/lang/String;
 	METHOD getPluginsPath getPluginsFolder ()Ljava/lang/String;

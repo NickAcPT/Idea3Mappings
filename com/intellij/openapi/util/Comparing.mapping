@@ -1,0 +1,3 @@
+CLASS com/intellij/openapi/util/Comparing
+	METHOD equal (Ljava/lang/String;Ljava/lang/String;Z)Z
+		ARG 2 ignoreCase
