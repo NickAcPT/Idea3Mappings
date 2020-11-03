@@ -1,6 +1,6 @@
 CLASS com/intellij/ide/f/j com/intellij/ide/licensing/LicenseData
 	FIELD a LOGGER Lcom/intellij/openapi/diagnostic/Logger;
-	FIELD b evaluationLicence Lcom/intellij/ide/f/a/e;
+	FIELD b evaluationLicense Lcom/intellij/ide/f/a/e;
 	FIELD c licenseKey Ljava/lang/String;
 	FIELD d systemLicensePath Ljava/lang/String;
 	FIELD e binLicensePath Ljava/lang/String;

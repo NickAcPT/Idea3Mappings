@@ -1,2 +1,16 @@
 CLASS com/intellij/ide/f/a/d com/intellij/ide/licensing/data/EvaluationLicenseManager
+	FIELD a LONG_MODULO Ljava/math/BigInteger;
+	FIELD b LONG_POWER Ljava/math/BigInteger;
+	FIELD c MED_MODULO Ljava/math/BigInteger;
+	FIELD d MED_POWER Ljava/math/BigInteger;
+	FIELD e SHORT_MODULO Ljava/math/BigInteger;
+	FIELD f SHORT_POWER Ljava/math/BigInteger;
 	METHOD a getEvaluationLicense (Ljava/lang/String;Ljava/lang/String;)Lcom/intellij/ide/f/a/e;
+		ARG 0 userName
+		ARG 1 licenseId
+	METHOD a getLicense (Ljava/lang/String;Ljava/math/BigInteger;)Lcom/intellij/ide/f/a/e;
+		ARG 0 userName
+		ARG 1 licenseInteger
+	METHOD b getLicense (Ljava/lang/String;Ljava/lang/String;)Lcom/intellij/ide/f/a/e;
+		ARG 0 userName
+		ARG 1 licenseId

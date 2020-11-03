@@ -1,7 +1,8 @@
-CLASS com/intellij/ide/j/c com/intellij/ide/IDEA
+CLASS com/intellij/ide/j/c com/intellij/ide/plugins/PluginManager
 	FIELD EXTENSIONS_DIR Ljava/lang/String;
 	FIELD LOG LOGGER Lcom/intellij/openapi/diagnostic/Logger;
 	FIELD TOOLS_JAR Ljava/lang/String;
+	FIELD a IdeaClass Ljava/lang/Class;
 	FIELD myArguments args [Ljava/lang/String;
 	FIELD myMainClass mainClass Ljava/lang/String;
 	FIELD myMethodName mainMethodName Ljava/lang/String;

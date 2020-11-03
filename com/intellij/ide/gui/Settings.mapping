@@ -1,0 +1,4 @@
+CLASS com/intellij/ide/b/e com/intellij/ide/gui/Settings
+	METHOD a forName (Ljava/lang/String;)Ljava/lang/Class;
+		ARG 0 className
+	METHOD c resetFont ()V

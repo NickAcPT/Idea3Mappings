@@ -2,6 +2,6 @@ CLASS com/intellij/ide/f/a/h com/intellij/ide/licensing/data/ProductId
 	FIELD a IDEA I
 	FIELD b IDEA_SUPPORT I
 	METHOD a getFromOrdinal (I)Ljava/lang/String;
-		ARG 0 orginal
+		ARG 0 ordinal
 	METHOD a getFromName (Ljava/lang/String;)I
 		ARG 0 name

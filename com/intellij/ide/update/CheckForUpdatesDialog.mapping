@@ -1,3 +1,3 @@
-CLASS com/intellij/ide/c/g com/intellij/ide/updating/CheckForUpdatesDialog
+CLASS com/intellij/ide/c/g com/intellij/ide/update/CheckForUpdatesDialog
 	FIELD s dontAskMeAgainCheckbox Ljavax/swing/JCheckBox;
 	METHOD a dontAskMeAgainCheckBox ()Ljavax/swing/JCheckBox;

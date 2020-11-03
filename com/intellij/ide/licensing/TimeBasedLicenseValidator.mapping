@@ -1,0 +1,9 @@
+CLASS com/intellij/ide/f/a/b com/intellij/ide/licensing/TimeBasedLicenseValidator
+	FIELD a evaluationLicense Lcom/intellij/ide/f/a/e;
+	FIELD b currentDate Ljava/util/Date;
+	FIELD c CURRENT_MAJOR I
+	FIELD d CURRENT_MINOR I
+	FIELD e JAN_1_2003 Ljava/util/Date;
+	FIELD f JAN_1_2002 Ljava/util/Date;
+	METHOD a getState ()Lcom/intellij/ide/f/a/c;
+	METHOD a setDate (Ljava/util/Date;)V

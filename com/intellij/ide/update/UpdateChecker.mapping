@@ -1,4 +1,4 @@
-CLASS com/intellij/ide/c/c com/intellij/ide/updates/UpdateChecker
+CLASS com/intellij/ide/c/c com/intellij/ide/update/UpdateChecker
 	FIELD a LOGGER Lcom/intellij/openapi/diagnostic/Logger;
 	FIELD d updateURL Ljava/net/URL;
 	METHOD a checkForUpdates ()V

@@ -1,0 +1,2 @@
+CLASS com/intellij/ide/f/l com/intellij/ide/licensing/EvaluationLicenseContainer
+	FIELD a license Lcom/intellij/ide/f/a/e;
