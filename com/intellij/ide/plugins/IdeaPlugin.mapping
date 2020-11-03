@@ -1,4 +1,4 @@
-CLASS com/intellij/ide/j/b com/intellij/ide/plugin/IdeaPlugin
+CLASS com/intellij/ide/j/b com/intellij/ide/plugins/IdeaPlugin
 	FIELD a name Ljava/lang/String;
 	FIELD b description Ljava/lang/String;
 	FIELD c version Ljava/lang/String;
