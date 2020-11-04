@@ -1,6 +1,12 @@
 CLASS com/intellij/ide/f/t com/intellij/ide/licensing/EnterLicenseDialog
+	FIELD a isExpired Z
 	FIELD b licensePanel Lcom/intellij/ide/f/u;
-	FIELD d closingRunnable Ljava/lang/Runnable;
+	FIELD c okRunnable Ljava/lang/Runnable;
+	FIELD d cancelRunnable Ljava/lang/Runnable;
+	METHOD <init> (ZLjava/lang/Runnable;Ljava/lang/Runnable;)V
+		ARG 1 isExpired
+		ARG 2 okRunnable
+		ARG 3 cancelRunnable
 	METHOD a close ()V
 	METHOD a onClosing (Lcom/intellij/ide/f/t;)V
 		ARG 0 dialog

@@ -1,0 +1,6 @@
+CLASS com/intellij/ide/f/b com/intellij/ide/licensing/misc/LicenseEditMouseListener
+	FIELD a url Ljava/lang/String;
+	FIELD b panel Lcom/intellij/ide/f/u;
+	METHOD <init> (Lcom/intellij/ide/f/u;Ljava/lang/String;)V
+		ARG 1 panel
+		ARG 2 url

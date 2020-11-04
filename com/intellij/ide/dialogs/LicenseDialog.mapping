@@ -1,6 +1,12 @@
 CLASS com/intellij/ide/f/s com/intellij/ide/dialogs/LicenseDialog
+	FIELD s isExpired Z
 	FIELD t centerPanel Lcom/intellij/ide/f/u;
+	FIELD u okAction Ljava/lang/Runnable;
 	FIELD v cancelAction Ljava/lang/Runnable;
+	METHOD <init> (ZLjava/lang/Runnable;Ljava/lang/Runnable;)V
+		ARG 1 isExpired
+		ARG 2 okAction
+		ARG 3 cancelAction
 	METHOD a getLicenseKeyText ()Ljava/lang/String;
 	METHOD b getUsernameText ()Ljava/lang/String;
 	METHOD b setLicenseKeyText (Ljava/lang/String;)V

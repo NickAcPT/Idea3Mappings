@@ -1,0 +1,5 @@
+CLASS com/intellij/ui/by com/intellij/ui/BorderUtils
+	COMMENT :concern:
+	METHOD a getBorder ()Ljavax/swing/border/Border;
+	METHOD a getTitledBorder (Ljava/lang/String;)Ljavax/swing/border/TitledBorder;
+		ARG 0 title

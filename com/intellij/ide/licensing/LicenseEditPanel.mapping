@@ -2,7 +2,12 @@ CLASS com/intellij/ide/f/u com/intellij/ide/licensing/LicenseEditPanel
 	FIELD a ideaEvalLicenseUrl Ljava/lang/String;
 	FIELD e licenseKeyField Ljavax/swing/JTextField;
 	FIELD f usernameField Ljavax/swing/JTextField;
+	METHOD <init> (Z)V
+		ARG 1 isExpired
+	METHOD a getLeftText ()Ljava/lang/String;
 	METHOD a setLicenseKeyText (Ljava/lang/String;)V
+	METHOD a addClipboardOperations (Ljavax/swing/JTextField;)V
+	METHOD b getRightText ()Ljava/lang/String;
 	METHOD b setUserNameText (Ljava/lang/String;)V
 	METHOD c getIdeaEvalLicenseUrl ()Ljava/lang/String;
 	METHOD d getAppInfo ()Lorg/jdom/Element;

@@ -1,0 +1,2 @@
+CLASS com/intellij/debugger/e/g com/intellij/debugger/ui/ThreadsViewSettings
+	FIELD SHOW_ALL_THREADS Z

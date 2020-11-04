@@ -1,1 +1,2 @@
 CLASS com/intellij/debugger/c/a/bk com/intellij/debugger/ui/impl/ThreadsView
+	FIELD g LOGGER Lcom/intellij/openapi/diagnostic/Logger;
