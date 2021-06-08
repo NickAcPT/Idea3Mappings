@@ -6,8 +6,8 @@ CLASS com/intellij/ide/f/j com/intellij/ide/licensing/LicenseData
 	FIELD e binLicensePath Ljava/lang/String;
 	FIELD f productLicenseAgreement Ljava/lang/String;
 	FIELD g productName Ljava/lang/String;
-	FIELD h isValid Z
-	METHOD a isInvalidLicense ()Z
+	FIELD h valid Z
+	METHOD a isValid ()Z
 	METHOD a writeLicense (Lcom/intellij/ide/f/p;)V
 		ARG 0 data
 	METHOD a validateLicenseData (Lcom/intellij/ide/f/p;ZZLjava/lang/Runnable;Ljava/lang/Runnable;)V
