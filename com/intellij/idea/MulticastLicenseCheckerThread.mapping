@@ -1,0 +1,2 @@
+CLASS com/intellij/idea/l com/intellij/idea/MulticastLicenseCheckerThread
+	FIELD a licenseCheckerThread Lcom/intellij/idea/k;
